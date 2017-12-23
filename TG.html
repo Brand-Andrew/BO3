@@ -1,0 +1,238 @@
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>COD | BO3 HOME</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="./img/favicon.ico" type="img/x-icon">
+		<link rel="stylesheet" href="style.css" type="text.css"/>
+</head>
+<body>
+    <header>
+        <img src="./img/P1.jpg" align="right">
+        <h1><u>The <span class="highlight">BO3</span> Zombies Hub</u></h1>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Maps
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="SOE.html">Shadows of Evil</a>
+                    <a href="TG.html">The Giant</a>
+                    <a href="DE.html">Der Eisendrache</a>
+                    <a href="GK.html">Gorod Krovi</a>
+                    <a href="ZNS.html">Zetsubou No Shima</a>
+                    <a href="R.html">Revelations</a>
+                </div>
+            </div>
+          <a href="About.html">About</a>
+        </div>
+    </header>
+    <section>
+        <article>
+            <h1><u>The Giant:</u></h1>
+            <h3><u>Step 1 - Pack-a-Punch ANY Weapon of your Choice</u></h3>
+            <img src="./img/Giant/G1.png">
+            <p>
+                You must get an upgraded weapon from the Pack-A-Punch Machine.
+            </p>
+        </article>
+        <article>
+            <h3><u>Step 2 - Shoot the Control Panel outside the map</u></h3>
+            <img src="./img/Giant/G2.png">
+            <p>
+                Shoot this weapon on a console in the back of the map. 
+                It's located opposite of the animal testing labs entrance.
+            </p>
+            <p>
+                If you hit it, a number of items will glow green and fly into the air. 
+                You must now find these items around the map in any order and shoot them with any weapon.
+            </p>
+        </article>
+        <article>
+            <h3><u>Step 3 - Find the Teddy Bear Locations Around the Map</u></h3>
+            <img src="./img/Giant/G3.png">
+            <p>
+                One item is located within the right furnace under Teleporter A. 
+                This is near the Animal Testing Labs. 
+                The furnace will not be lit.
+            </p>
+            <img src="./img/Giant/G4.png">
+            <p>
+                One item is located on the fire escape of a building outside the map. 
+                This building is left of the power switch.
+            </p>
+            <img src="./img/Giant/G5.png">
+            <p>
+                One item is located within the left water cooling vat in the second floor generators room above the hangar. 
+                You will need to jump to see it properly.
+            </p>
+        </article>
+        <article>
+            <h3><u>Step 4 - Acquire the Annihilator</u></h3>
+            <img src="./img/Giant/G6.png">
+            <p>
+                After shooting all three items, the Annihilator will be available in the furnace room within the hangar. 
+                This weapon is a special weapon and will not take up a normal weapon slot.
+            </p>
+        </article>
+    </section>
+</body>
+
+<footer class="X">
+    <p> Developed by Andrew Brand.</p>
+</footer>
+
+<style>
+    body{
+        font-family:impact, courier, times;
+        font-size:15px;
+        padding:0;
+        margin:0;
+        background-color:#ff4800;
+    }
+
+    .dark{
+        padding:15px;
+        background:black;
+        color:red;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    header{
+        background:black;
+        color:white;
+        padding-top:10px;
+        min-height:80px;
+        border-bottom:black 3px solid; 
+    }
+
+    header a{
+        color:white;
+        text-decoration:none;
+        text-transform:uppercase;
+        font-size:16px;
+    }
+    
+    header .highlight, header .current a{
+        color:#ff4800;
+        font-weight:bold;
+    }
+    
+    section{
+        margin-top:10px;
+        text-align:center;
+    }
+    
+    table{
+        margin-top:20px;
+    }
+    
+    table th{
+        border-style:solid;
+        border-width:5px;
+        border-color:black;
+    }
+    
+    aside #sidebar{
+        float:right;
+        width:30%;
+        margin-top:10px;
+    }
+
+    article #main-col{
+        float:left;
+        width:65%;
+    }
+
+    footer{
+        padding:20px;
+        margin-top:20px;
+        color:black;
+        text-align:center;
+    }
+    .X{
+    background-color:grey;
+}
+    
+    .navbar{
+        overflow:hidden;
+        background-color:black;
+        font-family:Arial;
+        color:white;
+    }
+
+    .navbar a{
+        float:left;
+        font-size:16px;
+        color:white;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+    }
+
+    .dropdown{
+        float:left;
+        overflow:hidden;
+    }
+
+    .dropdown .dropbtn{
+        cursor:pointer;
+        font-size:16px;    
+        border:none;
+        outline:none;
+        color:white;
+        padding:14px 16px;
+        background-color:inherit;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn{
+        background-color:#ff4800;
+    }
+
+    .dropdown-content{
+        display:none;
+        position:absolute;
+        background-color:#ff4800;
+        min-width:160px;
+        box-shadow:0px 8px 16px 0px #ff4800;
+        z-index:1;
+    }
+
+    .dropdown-content a{
+        float:none;
+        color:black;
+        padding:12px 16px;
+        text-decoration:none;
+        display:block;
+        text-align:left;
+        border-style:solid;
+        border-color:black;
+    }
+
+    .dropdown-content a:hover{
+        background-color:white;
+    }
+
+    .show{
+        display:block;
+    }
+</style>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+</html>
